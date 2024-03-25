@@ -1,7 +1,5 @@
 ## Process Hollowing
-This is a poc for process hollowing shellcode technique wwritten in C#. 
-<br>
-Uses a XOR encrypted msfvenom generated payload. Creates a process of svchost.exe in suspended state and injects shellcode into it. For full explaination I'll be writing a blog soon on [here](https://crypt0ace.github.io).
+This is a poc for process hollowing shellcode technique wwritten in C# and made by [crypt0ace](https://crypt0ace.github.io). My edits consist only in a passphrase rather than a single char XOR routine.
 
 ### Powershell
 It also contains a powershell script `hollow.ps1` which can load the program in it if you wanna do it all in memory without touching disk. Remember to change the IP.
